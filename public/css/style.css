@@ -1,0 +1,224 @@
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid rgb(213, 213, 213);
+    border-radius: 0 0 10px 10px;
+}
+
+header .left{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    display: flex;
+}
+
+header .left .image img{
+    width: 30px;
+    padding-top: 6px;
+}
+
+header h2{
+    padding-left: 30px;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+header a{
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    color: black;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header .right{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+header .right .home, header .right .cart, header .right .profile, header .right .account-maintenance{
+    padding-top: 5px;
+}
+
+.banner img{
+    padding: 20px;
+    width: 100%;
+}
+
+.profile-layout{
+    display: flex;
+    justify-content: center;
+    margin: 60px 100px;
+}
+
+.profile-layout img{
+    height: 300px;
+    margin-right: 100px;
+}
+
+.login-form, .register-form{
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 12.5%;
+    margin-bottom: 50px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 10px;
+    padding: 5%;
+    background-color: rgb(248, 253, 246);
+}
+
+.profile-form{
+    background-color: rgb(248, 253, 246);
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.login-form h2, .register-form h2, .profile-form h2{
+    margin-bottom: 30px;
+}
+
+.search-item{
+    margin: 30px 100px 0 100px;
+}
+
+.list-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-home .item-home{
+    width: 400px;
+    height: 550px;
+    margin: 15px 50px;
+    background-color: rgb(248, 253, 246);
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 10px;
+}
+
+.list-home .item-home .image{
+    border-bottom: 1px solid rgb(213, 213, 213);
+    border-radius: 0 0 10px 10px;
+}
+
+.list-home .item-home .image img{
+    width: 400px;
+    padding: 10px;
+}
+
+.list-home .item-home .detail{
+    margin: 10px;
+}
+
+.list-home .item-home .detail p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.list-paginator{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.detail-product-section{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 253, 246);
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.detail-product-section .left .item-image img{
+    width: 500px;
+}
+
+.detail-product-section .right .item-title p{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.detail-product-section .right{
+    margin-left: 100px;
+}
+
+.cart-list{
+    margin: 50px;
+}
+
+.cart-list .title p, .acc-list .title p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cart-list .cart-detail, .acc-list .acc-detail{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 253, 246);
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.cart-list .cart-detail .left img{
+    height: 150px;
+}
+
+.cart-list .cart-detail .content, .acc-list .acc-detail .content{
+    padding: 20px 100px;
+}
+
+.acc-list .acc-detail .left img{
+    height: 150px;
+}
+
+.update-role-form h2{
+    text-align: center;
+}
+
+.update-role-form{
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 12.5%;
+    margin-bottom: 50px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 10px;
+    padding: 5%;
+    background-color: rgb(248, 253, 246);
+}
+
+footer{
+    border-top: 1px solid rgb(213, 213, 213);
+}
+
+footer h2, footer p{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
